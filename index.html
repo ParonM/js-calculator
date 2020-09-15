@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="header">
+            <input disabled value="0" id="display" class="out" type="text">
+        </div>
+
+        <div class="main">
+                <div class="row">
+                <button onclick="calculate(this)" class="btn top" id="c">C</button>
+                <button onclick="calculate(this)" class="btn top">+/-</button>
+                <button onclick="calculate(this)" class="btn top">%</button>
+                <button onclick="calculate(this)" class="btn special operation">/</button>
+            </div>
+            
+            <div class="row">
+                <button onclick="calculate(this)" class="btn number">7</button>
+                <button onclick="calculate(this)" class="btn number">8</button>
+                <button onclick="calculate(this)" class="btn number">9</button>
+                <button onclick="calculate(this)" class="btn special operation">*</button>
+            </div>
+
+             <div class="row">
+                <button onclick="calculate(this)" class="btn number">4</button>
+                <button onclick="calculate(this)" class="btn number">5</button>
+                <button onclick="calculate(this)" class="btn number">6</button>
+                <button onclick="calculate(this)" class="btn special operation">-</button>
+             </div>
+
+             <div class="row">
+                <button onclick="calculate(this)" id="n1" class="btn number">1</button>
+                <button onclick="calculate(this)" id="n2" class="btn number">2</button>
+                <button onclick="calculate(this)" id="n3" class="btn number">3</button>
+                <button onclick="calculate(this)" class="btn special operation">+</button>
+             </div>
+
+             <div class="row">
+                <button onclick="calculate(this)" class="btn btn-big number">0</button>
+                <button onclick="calculate(this)"  class="btn" id="decimal">,</button>
+                <button onclick="calculate(this)" class="btn special" id="result">=</button>
+             </div>
+
+
+
+
+
+             
+
+
+
+
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
